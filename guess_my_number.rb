@@ -15,10 +15,6 @@ end
 
 class NumberGuesser
 
-  attr_accessor :highest_guess
-  attr_accessor :lowest_guess
-  attr_accessor :guess
-
   def initialize
     @lowest_possible = 1
     @highest_possible = 100
