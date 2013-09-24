@@ -21,7 +21,7 @@ class NumberGuesser
   end
 
   def guess
-    @lowest_possible + (@highest_possible - @lowest_possible) / 2
+    ( @lowest_possible + @highest_possible ) / 2
   end
 
   def lower
